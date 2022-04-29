@@ -1,0 +1,12 @@
+#navbar {
+    background-color: silver;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 786px) {
+    body{
+        background-color: red;
+    }
+}
