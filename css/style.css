@@ -1,12 +1,25 @@
 #navbar {
     background-color: silver;
     position: fixed;
+    top:0px;
     display: flex;
     flex-direction: column;
+    width: 30%;
+}
+#main-doc{
+    width: 65%;
+}
+body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @media (max-width: 786px) {
     body{
         background-color: red;
+        display:grid;
+        grid-template-columns: auto auto;
     }
+    
 }
