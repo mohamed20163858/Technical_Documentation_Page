@@ -57,9 +57,11 @@ body{
 }
 
 code {
-    background-color: #251D3A;
-    /* color: #F9EBC8; */
     font-size: 16px;
+}
+
+ul {
+    padding-left: 35px;
 }
 
 li {
